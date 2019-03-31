@@ -1,0 +1,43 @@
+{
+    "name": "zalatov/yii2-pgsql",
+    "version": "1.0",
+    "description": "Classes for improvement of postgresql database in Yii2.",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/zalatov/yii2-pgsql",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Zalatov Alexander",
+            "email": "zalatov.ao@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/zalatov/yii2-pgsql.git",
+            "reference": "master"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "zalatov/yii2-pgsql",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zalatov/yii2-pgsql.git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "yiisoft/yii2": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "zalatov\\yii2\\pgsql\\": "src"
+        }
+    }
+}
